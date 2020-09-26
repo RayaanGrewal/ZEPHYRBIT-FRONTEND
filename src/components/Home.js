@@ -1,8 +1,6 @@
 import React , { Component } from 'react';
-
-
-
-
+import { Image } from 'react-bootstrap';
+import NavbarComponent from './NavbarComponent'
 
 class Home extends Component {
   constructor(props){
@@ -13,7 +11,12 @@ class Home extends Component {
 
   render()
   {
-  return(<div>hello</div>);
+  return(
+    <div>
+      <NavbarComponent/>
+      <Image style={{height : 1200, width : 2000}} src={require("../assets/logo1.png")} fluid />
+    </div>
+ );
   }
 }
 
