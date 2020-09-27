@@ -9,7 +9,7 @@ function NavbarComponent(props){
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" style={{marginBottom : 0}} >
       <Container fluid>
-    <Navbar.Brand href="/"  style={{color : "	#FFFFFF" , fontWeight: "bold"  }}>Zephyrbit</Navbar.Brand>
+    <Navbar.Brand href="/"  style={{color :"#7A63FF" , fontWeight: "bold" , fontSize: 25 }}>Zephyrbit</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">

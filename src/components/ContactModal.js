@@ -23,10 +23,11 @@ function ContactModal() {
         <Col>
           Email : zephyrbit1@gmail.com
         </Col>
-        <Col>
-          Call : 08427653324
-        </Col>
       </Row>
+      <Row style={{marginBottom : 15}}>
+      <Col>
+        Call : 08427653324
+      </Col></Row>
       <Button variant="outline-primary" size="lg" block>
         <a href="tel:08427653324">Call </a>
       </Button>
